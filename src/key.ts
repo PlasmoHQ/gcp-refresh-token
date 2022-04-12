@@ -34,7 +34,7 @@ export const getKey = async (createDefaultKey = false) => {
       const newKey = { ...defaultKey }
       delete newKey.chrome
 
-      await writeFile(keyFilePath, JSON.stringify(defaultKey, null, 2))
+      await writeFile(keyFilePath, JSON.stringify(newKey, null, 2))
       throw new Error(
         "No key.json found, a default key was created. Follow the readme for more info: https://github.com/plasmo-corp/gcp-refresh-token"
       )

@@ -1,6 +1,6 @@
 {
   "name": "gcp-refresh-token",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A cli util to retrieve a Google OAuth 2.0 refresh token",
   "author": "Plasmo Corp. <support@plasmo.com>",
   "license": "MIT",
