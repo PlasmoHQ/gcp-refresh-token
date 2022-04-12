@@ -26,5 +26,13 @@ jobs:
         with:
           node-version: 16.x
           cache: "pnpm"
+      # - uses: browser-actions/setup-chrome@latest
+      # For future reference, might test e2e for real, but need a way to
+      # interact with the runner's browser.
+      # - uses: plasmo-corp/soft-secret@v1
+      #   with:
+      #     secret: ${{ secrets.TEST_KEY }}
+      #     target: "key.json"
       - run: pnpm i
-      - run: pnpm run prepublishOnly
+      - run: pnpm build
+      - run: pnpm test

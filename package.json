@@ -1,37 +1,53 @@
 {
-  "name": "@plasmo-corp/qtt",
-  "version": "1.6.1",
-  "description": "",
+  "name": "gcp-refresh-token",
+  "version": "0.0.0",
+  "description": "A cli util to retrieve a Google OAuth 2.0 refresh token",
+  "author": "Plasmo Corp. <support@plasmo.com>",
+  "license": "MIT",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "bin": "./dist/index.js",
+  "bin": {
+    "gcp-refresh-token": "./dist/cli.js",
+    "gcprt": "./dist/cli.js"
+  },
   "files": [
     "dist"
   ],
   "scripts": {
     "dev": "run-p dev:*",
-    "dev:compile": "tsup src/index.ts --watch --sourcemap",
-    "dev:test": "jest --watch",
+    "dev:compile": "tsup src/cli.ts src/index.ts --watch --sourcemap",
+    "#dev:test": "jest --watch",
     "build": "run-p build:*",
+    "#build:type": "tsup src/index.ts --dts-only --dts-resolve",
+    "#build:compile": "tsup src/cli.ts src/index.ts --minify",
     "build:type": "tsup src/index.ts --dts-only --dts-resolve",
-    "build:compile": "esbuild src/index.ts --bundle --minify --platform=node --outdir=dist",
+    "build:compile": "esbuild src/cli.ts src/index.ts --bundle --minify --platform=node --outdir=dist",
     "test": "jest",
     "clean": "rimraf dist",
     "prepublishOnly": "run-s clean build test"
   },
-  "author": "Plasmo Corp. <support@plasmo.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/plasmo-corp/qtt.git"
+    "url": "https://github.com/plasmo-corp/gcp-refresh-token.git"
   },
-  "license": "MIT",
-  "keywords": [],
+  "keywords": [
+    "gcp",
+    "google-api",
+    "refresh-token",
+    "browser-extension",
+    "chrome-web-store"
+  ],
+  "dependencies": {
+    "get-port": "6.1.2",
+    "google-auth-library": "7.14.1",
+    "open": "8.4.0"
+  },
   "devDependencies": {
     "@jest/globals": "27.5.1",
     "@plasmo-corp/rps": "1.2.1",
     "@trivago/prettier-plugin-sort-imports": "3.2.0",
     "@types/node": "17.0.23",
-    "esbuild": "0.14.34",
+    "esbuild": "0.14.35",
     "jest": "27.5.1",
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
