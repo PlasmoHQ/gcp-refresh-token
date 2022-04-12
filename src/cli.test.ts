@@ -13,7 +13,6 @@ const cliErrorRun = () => {
   try {
     execFileSync(execPath, [cliScript]).toString("utf-8")
   } catch (error) {
-    // console.log(error.message)
     return error.message.split("\n")[1]
   }
 }
