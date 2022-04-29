@@ -7,7 +7,7 @@ specifiers:
   '@types/node': 17.0.25
   cross-env: 7.0.3
   get-port: 6.1.2
-  google-auth-library: 7.14.1
+  google-auth-library: 8.0.2
   jest: 27.5.1
   open: 8.4.0
   prettier: 2.6.2
@@ -17,7 +17,7 @@ specifiers:
 
 dependencies:
   get-port: 6.1.2
-  google-auth-library: 7.14.1
+  google-auth-library: 8.0.2
   open: 8.4.0
 
 devDependencies:
@@ -1705,11 +1705,25 @@ packages:
       - supports-color
     dev: false
 
-  /gcp-metadata/4.3.1:
-    resolution: {integrity: sha512-x850LS5N7V1F3UcV7PoupzGsyD6iVwTVvsh3tbXfkctZnBnjW5yu5z1/3k3SehF7TyoTIe78rJs02GMMy+LF+A==}
-    engines: {node: '>=10'}
+  /gaxios/5.0.0:
+    resolution: {integrity: sha512-VD/yc5ln6XU8Ch1hyYY6kRMBE0Yc2np3fPyeJeYHhrPs1i8rgnsApPMWyrugkl7LLoSqpOJVBWlQIa87OAvt8Q==}
+    engines: {node: '>=12'}
     dependencies:
-      gaxios: 4.3.3
+      abort-controller: 3.0.0
+      extend: 3.0.2
+      https-proxy-agent: 5.0.0
+      is-stream: 2.0.1
+      node-fetch: 2.6.7
+    transitivePeerDependencies:
+      - encoding
+      - supports-color
+    dev: false
+
+  /gcp-metadata/5.0.0:
+    resolution: {integrity: sha512-gfwuX3yA3nNsHSWUL4KG90UulNiq922Ukj3wLTrcnX33BB7PwB1o0ubR8KVvXu9nJH+P5w1j2SQSNNqto+H0DA==}
+    engines: {node: '>=12'}
+    dependencies:
+      gaxios: 5.0.0
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - encoding
@@ -1787,16 +1801,16 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /google-auth-library/7.14.1:
-    resolution: {integrity: sha512-5Rk7iLNDFhFeBYc3s8l1CqzbEBcdhwR193RlD4vSNFajIcINKI8W8P0JLmBpwymHqqWbX34pJDQu39cSy/6RsA==}
-    engines: {node: '>=10'}
+  /google-auth-library/8.0.2:
+    resolution: {integrity: sha512-HoG+nWFAThLovKpvcbYzxgn+nBJPTfAwtq0GxPN821nOO+21+8oP7MoEHfd1sbDulUFFGfcjJr2CnJ4YssHcyg==}
+    engines: {node: '>=12'}
     dependencies:
       arrify: 2.0.1
       base64-js: 1.5.1
       ecdsa-sig-formatter: 1.0.11
       fast-text-encoding: 1.0.3
-      gaxios: 4.3.3
-      gcp-metadata: 4.3.1
+      gaxios: 5.0.0
+      gcp-metadata: 5.0.0
       gtoken: 5.3.2
       jws: 4.0.0
       lru-cache: 6.0.0
