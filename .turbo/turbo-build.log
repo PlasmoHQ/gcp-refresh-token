@@ -1,0 +1,19 @@
+[33mgcp-refresh-token:build: [0mcache hit, replaying output [2m34aa658b8ba1445c[0m
+[33mgcp-refresh-token:build: [0m
+[33mgcp-refresh-token:build: [0m> gcp-refresh-token@0.3.5 build P:\Projects\plasmo-corp\p1am0\packages\gcp-refresh-token
+[33mgcp-refresh-token:build: [0m> tsup src/cli.ts src/index.ts  --dts-resolve --format esm --minify --clean
+[33mgcp-refresh-token:build: [0m
+[33mgcp-refresh-token:build: [0m[34mCLI[39m Building entry: src/cli.ts, src/index.ts
+[33mgcp-refresh-token:build: [0m[34mCLI[39m Using tsconfig: tsconfig.json
+[33mgcp-refresh-token:build: [0m[34mCLI[39m tsup v5.12.6
+[33mgcp-refresh-token:build: [0m[34mCLI[39m Target: node12
+[33mgcp-refresh-token:build: [0m[34mCLI[39m Cleaning output folder
+[33mgcp-refresh-token:build: [0m[34mESM[39m Build start
+[33mgcp-refresh-token:build: [0m[32mESM[39m ⚡️ Build success in 1123ms
+[33mgcp-refresh-token:build: [0m[32mESM[39m [1mdist\index.js          [22m[32m173.00 B[39m
+[33mgcp-refresh-token:build: [0m[32mESM[39m [1mdist\chunk-ADG7MJOS.js [22m[32m3.18 KB[39m
+[33mgcp-refresh-token:build: [0m[32mESM[39m [1mdist\cli.js            [22m[32m688.00 B[39m
+[33mgcp-refresh-token:build: [0m[34mDTS[39m Build start
+[33mgcp-refresh-token:build: [0m[32mDTS[39m ⚡️ Build success in 8629ms
+[33mgcp-refresh-token:build: [0m[32mDTS[39m [1mdist\cli.d.ts   [22m[32m20.00 B[39m
+[33mgcp-refresh-token:build: [0m[32mDTS[39m [1mdist\index.d.ts [22m[32m1.49 KB[39m
