@@ -36,7 +36,7 @@ export const getKey = async (createDefaultKey = false) => {
 
       await writeFile(keyFilePath, JSON.stringify(newKey, null, 2))
       throw new Error(
-        "No key.json found, a default key was created. Follow the readme for more info: https://github.com/plasmo-corp/gcp-refresh-token"
+        "No key.json found, a default key was created. Follow the readme for more info: https://github.com/PlasmoHQ/gcp-refresh-token"
       )
     } else {
       throw new Error("No key.json found.")

@@ -2,7 +2,7 @@
 
 `gcp-refresh-token` is a cli util from [plasmo](https://www.plasmo.com/) to retrieve a refresh token as specified in [Google's OAuth 2.0 Refresh Token Flow](https://developers.google.com/identity/protocols/oauth2/native-app#programmatic-extraction).
 
-The key usecase is to leverage GCP in an external CI pipeline. The original goal of this package is to resolve [`chrome-webstore-api`](https://github.com/plasmo-corp/chrome-webstore-api)'s [#12](https://github.com/plasmo-corp/chrome-webstore-api/issues/12), with further discussion [here](https://github.com/fregante/chrome-webstore-upload/issues/59). However, it can be extended for other usecases (by adding an option for more scopes).
+The key usecase is to leverage GCP in an external CI pipeline. The original goal of this package is to resolve [`chrome-webstore-api`](https://github.com/PlasmoHQ/chrome-webstore-api)'s [#12](https://github.com/PlasmoHQ/chrome-webstore-api/issues/12), with further discussion [here](https://github.com/fregante/chrome-webstore-upload/issues/59). However, it can be extended for other usecases (by adding an option for more scopes).
 
 ## Usage
 
