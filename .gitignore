@@ -5,6 +5,8 @@ pnpm-lock.yaml
 package-lock.json
 yarn.lock
 
+.turbo
+
 key.json
 key-0.json
 dist/
