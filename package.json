@@ -1,15 +1,15 @@
 {
   "name": "gcp-refresh-token",
-  "version": "0.3.12",
+  "version": "0.4.0",
   "description": "A cli util to retrieve a Google OAuth 2.0 refresh token",
   "author": "Plasmo Corp. <foss@plasmo.com>",
   "license": "MIT",
   "type": "module",
-  "main": "./dist/index.js",
-  "types": "./dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "bin": {
-    "gcp-refresh-token": "./dist/cli.js",
-    "gcprt": "./dist/cli.js"
+    "gcp-refresh-token": "dist/cli.js",
+    "gcprt": "dist/cli.js"
   },
   "files": [
     "dist"
