@@ -1,5 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`key checking corrects 1`] = `"🛑 Error: No key.json found, a default key was created. Follow the readme for more info: https://github.com/plasmo-corp/gcp-refresh-token"`;
+exports[`key checking corrects 1`] = `"🛑 Error: No key.json found, a default key was created. Follow the readme for more info: https://github.com/PlasmoHQ/gcp-refresh-token"`;
 
 exports[`key checking corrects 2`] = `"🛑 Error: key.json is missing one or more of the required fields: client_id, client_secret, redirect_uris"`;
