@@ -35,6 +35,7 @@ async function main() {
           ...key,
           chrome: {
             clientId: key.installed.client_id,
+            clientSecret: key.installed.client_secret,
             refreshToken
           }
         },

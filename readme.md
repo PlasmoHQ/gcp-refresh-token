@@ -24,6 +24,7 @@ The resulted refresh token will be written into the `key.json` under the `chrome
   "installed": {},
   "chrome": {
     "clientId": "etc",
+    "clientSecret": "etc",
     "refreshToken": "etc"
   }
 }

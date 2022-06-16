@@ -16,6 +16,7 @@ export const defaultKey = {
   scope: ["https://www.googleapis.com/auth/chromewebstore"],
   chrome: {
     clientId: "",
+    clientSecret: "",
     refreshToken: ""
   }
 }
