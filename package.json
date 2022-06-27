@@ -34,7 +34,7 @@
   ],
   "dependencies": {
     "get-port": "6.1.2",
-    "google-auth-library": "8.0.2",
+    "google-auth-library": "8.0.3",
     "open": "8.4.0"
   },
   "devDependencies": {
