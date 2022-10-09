@@ -84,4 +84,4 @@ Join the [Discord channel](https://discord.browser.market)!
 
 # License
 
-[MIT](./license) 🖖 [Plasmo Corp.](https://plasmo.com)
+[MIT](./LICENSE) 🖖 [Plasmo Corp.](https://plasmo.com)
