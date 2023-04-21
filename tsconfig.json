@@ -16,7 +16,7 @@
     "noImplicitAny": false,
     "moduleResolution": "node",
     "module": "ESNext",
-    "target": "es6",
+    "target": "ESNext",
     "allowJs": true,
     "verbatimModuleSyntax": true
   },

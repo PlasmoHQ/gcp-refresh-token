@@ -6,8 +6,9 @@ const config = {
 
   clearMocks: true,
   moduleFileExtensions: ["js", "ts"],
+  extensionsToTreatAsEsm: [".ts"],
   transform: {
-    "^.+.ts?$": ["ts-jest", { isolatedModules: true, useESM: true }]
+    "^.+.ts?$": ["ts-jest", { useESM: true }]
   },
   testMatch: ["**/*.test.ts"],
   verbose: true,
