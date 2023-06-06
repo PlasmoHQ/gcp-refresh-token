@@ -33,7 +33,7 @@
     "chrome-webstore-api"
   ],
   "dependencies": {
-    "get-port": "6.1.2",
+    "get-port": "7.0.0",
     "google-auth-library": "8.8.0",
     "open": "9.1.0"
   },
@@ -49,6 +49,6 @@
     "prettier": "2.8.8",
     "ts-jest": "29.1.0",
     "tsup": "6.7.0",
-    "typescript": "5.0.4"
+    "typescript": "5.1.3"
   }
 }
