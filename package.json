@@ -41,7 +41,6 @@
     "@jest/globals": "29.6.1",
     "@jest/types": "29.6.1",
     "@plasmo/config": "workspace:*",
-    "@plasmohq/prettier-plugin-sort-imports": "workspace:*",
     "@plasmohq/rps": "workspace:*",
     "@types/node": "20.4.2",
     "cross-env": "7.0.3",

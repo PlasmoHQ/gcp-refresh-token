@@ -1,9 +1,9 @@
-import { expect, test } from "@jest/globals"
 import { execFileSync } from "child_process"
 import { existsSync } from "fs"
 import { rm } from "fs/promises"
 import { join } from "path"
 import { cwd, execPath } from "process"
+import { expect, test } from "@jest/globals"
 
 import { getKeyFilePath } from "~index"
 
