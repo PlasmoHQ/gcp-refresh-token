@@ -38,16 +38,16 @@
     "open": "9.1.0"
   },
   "devDependencies": {
-    "@jest/globals": "29.6.2",
-    "@jest/types": "29.6.1",
+    "@jest/globals": "29.6.4",
+    "@jest/types": "29.6.3",
     "@plasmo/config": "workspace:*",
     "@plasmohq/rps": "workspace:*",
-    "@types/node": "20.5.0",
+    "@types/node": "20.5.9",
     "cross-env": "7.0.3",
-    "jest": "29.6.2",
-    "prettier": "3.0.2",
+    "jest": "29.6.4",
+    "prettier": "3.0.3",
     "ts-jest": "29.1.1",
     "tsup": "7.2.0",
-    "typescript": "5.1.6"
+    "typescript": "5.2.2"
   }
 }
